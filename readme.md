@@ -20,8 +20,8 @@ This project demonstrates how to build an **end-to-end ETL pipeline** using **Ap
 
 We used the official Airflow Docker setup to run this project.
 
-git clone https://github.com/apache/airflow.git
-cd airflow
+- git clone https://github.com/apache/airflow.git
+- cd airflow
 
 2️⃣ Map Volumes in docker-compose.yaml
 Inside the airflow/docker-compose.yaml, add these volume mounts:
@@ -37,8 +37,8 @@ Run the following:
 docker-compose up airflow-init     # One-time DB setup
 docker-compose up                  # Start Airflow services
 
-Then open the Airflow UI at: http://localhost:8080
-Default login: airflow / airflow
+- Then open the Airflow UI at: http://localhost:8080
+- Default login: airflow / airflow
 
 
 4️⃣ Trigger the DAG
