@@ -65,11 +65,9 @@ Add it in your DAG file (later, use Airflow Variables or .env for security)
 You can use the top10_youtube.csv file to build a Streamlit dashboard:
 --streamlit run streamlit_app.py
 
-👨‍💻 Built By
-Rashwanth KP
-Built as a hands-on project to understand real-time data ingestion, ETL pipelines, and Apache Airflow scheduling.
+👨‍💻 Built By Rashwanth KP
+- Built as a hands-on project to understand real-time data ingestion, ETL pipelines, and Apache Airflow scheduling.
 
 📚 References
-YouTube Data API v3 Docs
-
-Apache Airflow Docs
+- YouTube Data API v3 Docs
+- Apache Airflow Docs
